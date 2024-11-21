@@ -19,7 +19,7 @@ This is the code for Self-Aligning Depth-regularized Radiance Fields for Asynchr
   <img src="./assets/main.png" width="100%" height="100%">
 </div>
 
-*The time-pose function is modeled using a 1-D multi-resolution hash grid with direct and speed losses. After bootstrapping the scene representation networks with pure RGB signals, the predicted depth sensor poses are used for jointly optimizing the NeRFs' parameters $\theta$. At each timestamp ($t_i$ from RGB sequence or $t_j$ from depth sequence), only one modality of sensor signals is provided, thus only one loss term is activated (shown on the right).*
+*The time-pose function is modeled using a 1-D multi-resolution hash grid with direct and speed losses. After bootstrapping the scene representation networks with pure RGB signals, the predicted depth sensor poses are used for jointly optimizing the NeRFs' parameters. At each timestamp, only one modality of sensor signals is provided, thus only one loss term is activated (shown on the right).*
 
 ## Install
 
