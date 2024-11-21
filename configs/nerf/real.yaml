@@ -1,0 +1,13 @@
+ray_altitude_range: [-5, 40]
+val_interval: 3000
+ckpt_interval: 10000
+batch_size: 256
+lr: 5e-4
+
+random_seed: 28
+pos_xyz_dim: 10
+pos_dir_dim: 4
+coarse_samples: 64
+
+no_bg_nerf: True
+appearance_dim: 0
